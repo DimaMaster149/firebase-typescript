@@ -1,6 +1,10 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
+import './main.scss';
+import VeeValidate from 'vee-validate';
+
+Vue.use(VeeValidate);
 
 Vue.config.productionTip = false;
 
